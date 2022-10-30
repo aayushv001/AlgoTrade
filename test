@@ -1,0 +1,6 @@
+final_dataframe=0
+
+final_dataframe.sort_values('One-Year Price Return', ascending = False, inplace = True)
+final_dataframe = final_dataframe[:51]
+final_dataframe.reset_index(drop = True, inplace = True)
+final_dataframe
